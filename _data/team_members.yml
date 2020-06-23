@@ -1,0 +1,94 @@
+- name: Fei He
+  photo: rock.jpg
+  info: Associate professor, started ??? ????
+  email: hefei@tsinghua.edu.cn
+  number_intro: 0
+  intro1:
+  intro2:
+  intro3:
+  intro4:
+  intro5:
+
+- name: Jianhui Chen
+  photo: rock.jpg
+  info: PhD student, started Sep 2016
+  email: chenjian16@mails.tsinghua.edu.cn
+  number_intro: 0
+  intro1:
+  intro2:
+  intro3:
+
+- name: Qianshan Yu
+  photo: rock.jpg
+  info: PhD student, started Sep 2017
+  email: yqs17@mails.tsinghua.edu.cn
+  number_intro: 1
+  intro1: Interested in coffee
+  intro2:
+
+- name: Fengmin Zhu
+  photo: rock.jpg
+  info: Master student, started Sep 2017
+  email: zfm17@mails.tsinghua.edu.cn
+  number_intro: 1
+  intro1: Interested in cocktail
+  intro2:
+  intro3:
+
+- name: Qinyu Wang
+  photo: rock.jpg
+  info: Master student, started Sep 2017
+  email: qy-wang17@mails.tsinghua.edu.cn
+  number_intro: 0
+  intro1:
+  intro2:
+  intro3:
+  intro4:
+
+- name: Hongyu Fan
+  photo: rock.jpg
+  info: PhD student, started Sep 2018
+  email: fhy18@mails.tsinghua.edu.cn
+  number_intro: 0
+  intro1:
+  intro2:
+  intro3:
+  intro4:
+
+- name: Liu Yang
+  photo: rock.jpg
+  info: Master student, started Sep 2018
+  email: yangl18@mails.tsinghua.edu.cn
+  number_intro: 0
+  intro1:
+  intro2:
+
+- name: Jitao Han
+  photo: rock.jpg
+  info: Master student, started Sep 2018
+  email: hanjt18@mails.tsinghua.edu.cn
+  number_intro: 0
+  intro1:
+  intro2:
+  intro3:
+  intro4:
+
+- name: Weichong Gan
+  photo: rock.jpg
+  info: Master student, started Sep 2019
+  email: ganwc19@mails.tsinghua.edu.cn
+  number_intro: 0
+  intro1:
+  intro2:
+  intro3:
+  intro4:
+
+- name: Chenrong Xu
+  photo: rock.jpg
+  info: Master student, started Sep 2019
+  email: xrc19@mails.tsinghua.edu.cn
+  number_intro: 0
+  intro1:
+  intro2:
+  intro3:
+  intro4:

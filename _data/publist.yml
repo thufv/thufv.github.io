@@ -1,0 +1,39 @@
+- title: "Multi-Atom Quasiparticle Scattering Interference for Superconductor Energy-Gap Symmetry Determination"
+  image: TBG_ARPES.png
+  description:
+  authors: Jianhui Chen, Fei He
+  link:
+    url: https://dl.acm.org/doi/10.1145/3385412.3386002
+    display: PLDI2020
+  highlight: 0
+  news2:
+
+- title: "Enhancing precision of structured merge by proper tree matching"
+  image: TBG_ARPES.png
+  description: 
+  authors: Fengmin Zhu, Fei He, Qianshan Yu
+  link:
+    url: https://dl.acm.org/doi/10.1109/ICSE-Companion.2019.00117
+    display: ICSE2019
+  highlight: 0
+  news2:
+
+- title: "Conflict resolution for structured merge via version space algebra"
+  image: TBG_ARPES.png
+  description: 
+  authors: Fengmin Zhu, Fei He
+  link:
+    url: https://dl.acm.org/doi/10.1145/3276536
+    display: OOPSLA2018
+  highlight: 0
+  news2:
+
+- title: "Control flow-guided SMT solving for program verification"
+  image: TBG_ARPES.png
+  description: This paper is selected as ACM SIGSOFT Distinguished Paper. (TODO) Some more description is needed here.
+  authors: Jianhui Chen, Fei He
+  link:
+    url: https://dl.acm.org/citation.cfm?id=3238218
+    display: ASE2018
+  highlight: 1
+  news1:  <a href="https://aip.scitation.org/doi/10.1063/1.5043267">School of Software News (Chinese)</a>

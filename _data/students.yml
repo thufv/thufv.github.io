@@ -1,0 +1,46 @@
+#- name:
+#  photo: rock.jpg
+#  info:
+#  email:
+#  number_educ:
+#  education1:
+#  education2:
+#  education3:
+#  education4:
+
+- name: Yang Zhang
+  photo: rock.jpg
+  info: enrolled at 2016
+  email: dimlight1998@gmail.com
+  number_intro: 0
+
+- name: Chong Ye
+  photo: rock.jpg
+  info: enrolled at 2016
+  email:
+  number_intro: 0
+
+- name: Zheng Zeng
+  photo: rock.jpg
+  info: enrolled at 2016
+  email:
+  number_intro: 0
+
+- name: Tao Xie
+  photo: rock.jpg
+  info: enrolled at 2016
+  email: xiet16@mails.tsinghua.edu.cn
+  number_intro: 0
+
+- name: Zhihang Sun
+  photo: rock.jpg
+  info: enrolled at 2016
+  email:
+  number_intro: 0
+
+- name: Xingyu Xie
+  photo: rock.jpg
+  info: enrolled at 2017
+  email: xiexy17@mails.tsinghua.edu.cn
+  number_intro: 1
+  intro1: Interested in water
