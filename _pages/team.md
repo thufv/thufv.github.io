@@ -10,7 +10,7 @@ permalink: /team/
 
 **We are looking for passionate new PhD students, Postdocs, and Master students to join the team! Do not hesitate to contact [us](hefei@tsinghua.edu.cn) if you're interested to our research.**
 
-Jump to [staff](#staff), [alumni](#alumni), [administrative support](#administrative-support).
+Jump to [staff](#staff), [alumni](#alumni) and [bachelor students](#bachelor-students).
 
 ## Staff
 {% assign number_printed = 0 %}
@@ -77,7 +77,7 @@ Jump to [staff](#staff), [alumni](#alumni), [administrative support](#administra
 
 
 
-## Master and Bachelor Students
+## Bachelor Students
 {% assign number_printed = 0 %}
 {% for member in site.data.students %}
 
@@ -148,7 +148,3 @@ Jump to [staff](#staff), [alumni](#alumni), [administrative support](#administra
 </div>
 
 </div>
-
-
-## Administrative Support
-<a href="mailto:Rijsewijk@Physics.LeidenUniv.nl">Ellie van Rijsewijk</a> is helping us (and other groups) with administration.
