@@ -1,32 +1,37 @@
+- title: "Interval Counterexamples for Loop Invariant Learning"
+  authors: Rongchen Xu, Fei He and Bow-Yaw Wang
+  link:
+    url:
+    display: ESEC/FSE 2020
+  highlight: 0
+
 - title: "Multi-Atom Quasiparticle Scattering Interference for Superconductor Energy-Gap Symmetry Determination"
-  image: TBG_ARPES.png
-  description:
   authors: Jianhui Chen, Fei He
   link:
-    url: https://dl.acm.org/doi/10.1145/3385412.3386002
-    display: PLDI2020
+    url: 
+    display: PLDI 2020
   highlight: 0
-  news2:
 
 - title: "Enhancing precision of structured merge by proper tree matching"
-  image: TBG_ARPES.png
-  description: 
   authors: Fengmin Zhu, Fei He, Qianshan Yu
   link:
-    url: https://dl.acm.org/doi/10.1109/ICSE-Companion.2019.00117
-    display: ICSE2019
+    url: 
+    display: ICSE 2019
   highlight: 0
-  news2:
+
+- title: "PSpec-SQL: Enabling Fine-Grained Control for Distributed Data Analytics"
+  authors: Chen Luo, Fei He, Fei Peng, Dong Yan, Dan Zhang and Xin Zhou
+  link:
+    url: https://ieeexplore.ieee.org/document/8703165
+    display: "IEEE Transactions on Dependable and Secure Computing, 2019, Early Access"
+  highlight: 0
 
 - title: "Conflict resolution for structured merge via version space algebra"
-  image: TBG_ARPES.png
-  description: 
   authors: Fengmin Zhu, Fei He
   link:
-    url: https://dl.acm.org/doi/10.1145/3276536
-    display: OOPSLA2018
+    url: 
+    display: OOPSLA 2018
   highlight: 0
-  news2:
 
 - title: "Control flow-guided SMT solving for program verification"
   image: TBG_ARPES.png
@@ -37,3 +42,93 @@
     display: ASE2018
   highlight: 1
   news1:  <a href="https://aip.scitation.org/doi/10.1063/1.5043267">School of Software News (Chinese)</a>
+
+- title: "SMT-Based Query Tracking for Differentially Private Data Analytics Systems"
+  authors: Chen Luo, Fei He
+  link:
+    url:
+    display: "Frontier of Computer Science, 2018, 12 (6): 1192-1207"
+  highlight: 0
+
+- title: "Efficient Software Product-Line Model Checking using Induction and a SAT-Solver"
+  authors: Fei He, Yuan Gao and Liangze Yin
+  link:
+    url:
+    display: "Frontier of Computer Science, 2018, 12 (2): 264-279"
+  highlight: 0
+
+- title: "PSpec: A Formal Specification Language for Fine-Grained Control on Distributed Data Analytics"
+  authors: Chen Luo, Fei He, Dong Yan, Dan Zhang, Xin Zhou and Bow-Yaw Wang
+  link:
+    url:
+    display: ICSE 2017
+  highlight: 0
+
+- title: A True-Concurrency Encoding for BMC of Compositional Systems
+  authors: Liangze Yin, Wei Dong, Fei He and Ji Wang
+  link:
+    url:
+    display: "The Computer Journal, 2017 July: 1-14"
+  highlight: 0
+
+- title: Inferring Software Behavioral Models with MapReduce (extended version)
+  authors: Chen Luo, Fei He and Carlo Ghezzi
+  link:
+    url:
+    display: "Science of Computer Programming, vol. 145, pp. 13-36, Oct. 2017"
+  highlight: 0
+
+- title: Learning-based Assume-Guarantee Regression Verification
+  authors: Fei He, Shu Mao and Bow-Yaw Wang
+  link:
+    url:
+    display: CAV 2016
+  highlight: 0
+
+- title: Learning Weighted Assumptions for Compositional Verification of Markov Decision Processes (journal version of the POPL'15 paper)
+  authors: Fei He, Xiaowei Gao, Miaofei Wang, Bow-Yaw Wang and Lijun Zhang
+  link:
+    url:
+    display: TOSEM 2016
+  highlight: 0
+
+- title: Inferring Software Behavioral Models with MapReduce
+  authors: Chen Luo, Fei He and Carlo Ghezzi
+  link:
+    url:
+    display: SETTA 2015
+  highlight: 0
+
+- title: "VeRV: A Temporal and Data-Concerned Verification Framework for the Vehicle Bus Systems"
+  authors: Shuo Zhang, Fei He and Ming Gu
+  link:
+    url:
+    display: IEEE INFOCOM 2015
+  highlight: 0
+
+- title: "Leveraging Weighted Automata in Composition Reasoning about Concurrent Probabilistic Systems"
+  authors: Fei He, Xiaowei Gao, Bow-Yaw Wang and Lijun Zhang
+  link:
+    url:
+    display: POPL 2015
+  highlight: 0
+
+- title: "Deadlock detection in FPGA design: a practical way"
+  authors: Dexi Wang, Fei He, Yangdong Deng, Chao Su, Ming Gu, and Jiaguang Sun
+  link:
+    url:
+    display: Tsinghua Science & Technology, 20(2), pp. 212-218, January 2015
+  highlight: 0
+
+- title: "Generalized Interface Automata with Multicast Synchronization"
+  authors: Fei He, Xiaoyu Song, Ming Gu and Jiaguang Sun
+  link:
+    url:
+    display: Frontier of Computer Sciences, 9(1), pp. 1-14, Feb. 2015
+  highlight: 0
+
+- title: Estimating the Volume of Solution Space for Satisfiability Modulo Linear Real Arithmetic
+  authors: Min Zhou, Fei He, Xiaoyu Song, Shi He, Gangyi Chen, Ming Gu
+  link:
+    url:
+    display: Theory of Computing Systems, 56(2), pp. 347-371, Feb. 2015
