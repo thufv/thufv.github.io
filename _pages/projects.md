@@ -1,6 +1,6 @@
 ---
 title: "THUFV Lab - Project"
-layout: textlay
+layout: gridlay
 excerpt: "THUFV Lab -- Project"
 sitemap: false
 permalink: /projects/
@@ -8,8 +8,40 @@ permalink: /projects/
 
 # Projects
 
-## AutoMerge
+{% assign number_printed = 0 %}
+{% for proje in site.data.prolist %}
 
-[AutoMerge](https://thufv.github.io/automerge/) aims to resolve merge conflicts that cannot be resolved by existing structured merge approaches. It is built on the top of JDime, a state-of-the-art structured merger. It employs the power of version space algebra and the basic rules of three-way merge.
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if proje.highlight == 1 %}
 
-## Some Other Projects
+{% if even_odd == 0 %}
+<div class="row">
+{% endif %}
+
+<div class="col-sm-6 clearfix">
+ <div class="well">
+  <pubtit>{{ proje.title }}</pubtit>
+  <img src="{{ site.url }}{{ site.baseurl }}/images/propic/{{ proje.image }}" class="img-responsive" width="33%" style="float: left" />
+  <p>{{ proje.description }}</p>
+  <p><em>{{ proje.authors }}</em></p>
+  <p><strong><a href="{{ proje.link.url }}">{{ proje.link.display }}</a></strong></p>
+  <p class="text-danger"><strong> {{ proje.news1 }}</strong></p>
+  <p> {{ proje.news2 }}</p>
+ </div>
+</div>
+
+{% assign number_printed = number_printed | plus: 1 %}
+
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
+{% endif %}
+{% endfor %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
+<p> &nbsp; </p>

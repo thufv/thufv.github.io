@@ -1,0 +1,8 @@
+- title: AutoMerge
+  image: TBG_ARPES.png
+  description: <a href="https://thufv.github.io/automerge/">AutoMerge</a> aims to resolve merge conflicts that cannot be resolved by existing structured merge approaches. It is built on the top of JDime, a state-of-the-art structured merger.
+  authors: Fengmin Zhu, Fei He
+  link:
+    url: https://dl.acm.org/doi/10.1145/3276536
+    display: paper
+  highlight: 1
