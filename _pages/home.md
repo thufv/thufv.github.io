@@ -6,10 +6,10 @@ sitemap: false
 permalink: /
 ---
 
-We are a research group at the [School of Software, Tsinghua University](http://www.thss.tsinghua.edu.cn/publish/soften/index.html). Our aim is to explore and understand [formal verification](https://en.wikipedia.org/wiki/Formal_verification#:~:text=In%20the%20context%20of%20hardware,using%20formal%20methods%20of%20mathematics.), including model checkding, programming language, static analysis, verification of contracts and circuits, etc.
+We are a research group at the [School of Software, Tsinghua University](http://www.thss.tsinghua.edu.cn/publish/soften/index.html). Our aim is to explore and understand [formal verification](https://en.wikipedia.org/wiki/Formal_verification#:~:text=In%20the%20context%20of%20hardware,using%20formal%20methods%20of%20mathematics.), including model checking, programming language, static analysis, verification of contracts and circuits, etc.
 
 *TODO: Maybe more Introduction is needed here*
 
-**We are looking for passionate new PhD students, Postdocs, and Master students to join the team! Do not hesitate to contact [us](hefei@tsinghua.edu.cn) if you're interested to our research.**
+**We are looking for passionate new PhD students, Postdocs, and Master students to join the team! Do not hesitate to contact [us](hefei@tsinghua.edu.cn) if you're interested in our research.**
 
 *TODO: Do we need to appreciate our sponsors here?*
