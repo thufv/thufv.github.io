@@ -3,6 +3,8 @@ title: "THUFV Lab - Project"
 layout: gridlay
 excerpt: "THUFV Lab -- Project"
 sitemap: false
+redirect_from:
+  - /zord/
 permalink: /projects/
 ---
 
@@ -21,10 +23,12 @@ permalink: /projects/
 <div class="col-sm-6 clearfix">
  <div class="well">
   <pubtit>{{ proje.title }}</pubtit>
-  <img src="{{ site.url }}{{ site.baseurl }}/images/propic/{{ proje.image }}" class="img-responsive" width="33%" style="float: left" />
+  <img src="{{ site.url }}{{ site.baseurl }}/images/propic/{{ proje.image }}" class="img-responsive" width="45%" style="float: left" />
   <p>{{ proje.description }}</p>
   <p><em>{{ proje.authors }}</em></p>
-  <p><strong><a href="{{ proje.link.url }}">{{ proje.link.display }}</a></strong></p>
+  {% for link in proje.links %}
+  <p><strong><a href="{{ link.url }}">{{ link.display }}</a></strong></p>
+  {% endfor %}
   <p class="text-danger"><strong> {{ proje.news1 }}</strong></p>
   <p> {{ proje.news2 }}</p>
  </div>
