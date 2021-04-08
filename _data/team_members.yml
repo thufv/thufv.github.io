@@ -1,6 +1,6 @@
 - name: Fei He
   photo: rock.jpg
-  info: Associate professor, started ??? ????
+  info: Associate professor
   email: hefei@tsinghua.edu.cn
   number_intro: 0
   intro1:
@@ -22,28 +22,9 @@
   photo: rock.jpg
   info: PhD student, started Sep 2017
   email: yqs17@mails.tsinghua.edu.cn
-  number_intro: 1
+  number_intro: 0
   intro1: Interested in coffee
   intro2:
-
-- name: Fengmin Zhu
-  photo: rock.jpg
-  info: Master student, started Sep 2017
-  email: zfm17@mails.tsinghua.edu.cn
-  number_intro: 1
-  intro1: Interested in cocktail
-  intro2:
-  intro3:
-
-- name: Qinyu Wang
-  photo: rock.jpg
-  info: Master student, started Sep 2017
-  email: qy-wang17@mails.tsinghua.edu.cn
-  number_intro: 0
-  intro1:
-  intro2:
-  intro3:
-  intro4:
 
 - name: Hongyu Fan
   photo: rock.jpg
@@ -83,12 +64,6 @@
   intro3:
   intro4:
 
-- name: Adnan Leicester
-  photo: rock.jpg
-  info: PhD student, started Sep 2019
-  email:
-  number_intro: 0
-
 - name: Rongchen Xu
   photo: rock.jpg
   info: Master student, started Sep 2019
@@ -98,3 +73,21 @@
   intro2:
   intro3:
   intro4:
+
+- name: Yang Zhang
+  photo: rock.jpg
+  info: Master student, enrolled at 2020
+  email: dimlight1998@gmail.com
+  number_intro: 0
+
+- name: Chong Ye
+  photo: rock.jpg
+  info: Master student, enrolled at 2020
+  email:
+  number_intro: 0
+
+- name: Zhihang Sun
+  photo: rock.jpg
+  info: PhD student, enrolled at 2020
+  email:
+  number_intro: 0

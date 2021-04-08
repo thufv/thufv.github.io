@@ -10,7 +10,7 @@ permalink: /team/
 
 **We are looking for passionate new PhD students, Postdocs, and Master students to join the team! Do not hesitate to contact [us](hefei@tsinghua.edu.cn) if you're interested to our research.**
 
-Jump to [staff](#staff), [alumni](#alumni) and [bachelor students](#bachelor-students).
+Jump to [staff](#staff) and [bachelor students](#bachelor-students).
 
 ## Staff
 {% assign number_printed = 0 %}
@@ -23,7 +23,6 @@ Jump to [staff](#staff), [alumni](#alumni) and [bachelor students](#bachelor-stu
 {% endif %}
 
 <div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   <h4>{{ member.name }}</h4>
   <i>{{ member.info }}<br>email: <{{ member.email }}></i>
   <ul style="overflow: hidden">
@@ -129,22 +128,3 @@ Jump to [staff](#staff), [alumni](#alumni) and [bachelor students](#bachelor-stu
 {% if even_odd == 1 %}
 </div>
 {% endif %}
-
-## Alumni
-<div class="row">
-
-<div class="col-sm-6 clearfix">
-<h4>PhD Students</h4>
-{% for member in site.data.alumni_phd %}
-{{ member.name }}
-{% endfor %}
-</div>
-
-<div class="col-sm-6 clearfix">
-<h4>Master students</h4>
-{% for member in site.data.alumni_master %}
-{{ member.name }}
-{% endfor %}
-</div>
-
-</div>
