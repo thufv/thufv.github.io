@@ -1,6 +1,6 @@
 - title: AutoMerge
   image: automerge.png
-  description: <a href="https://thufv.github.io/automerge/">AutoMerge</a> aims to resolve merge conflicts that cannot be resolved by existing structured merge approaches. It is built on the top of JDime, a state-of-the-art structured merger.
+  description: <a href="https://thufv.github.io/automerge/">AutoMerge</a> aims to resolve merge conflicts that cannot be resolved by existing structured merge approaches. 
   authors: Fengmin Zhu, Fei He
   links:
   - url: https://dl.acm.org/doi/10.1145/3276536
@@ -9,8 +9,8 @@
 
 - title: Zord
   image: zord.png
-  description: Zord is a bounded model checker specialized in multi-threaded programs. It realizes a dedicated ordering consistency theory and its elaborated theory solver for multi-threaded program verification. It is built on the top of CBMC, a powerful bounded model checker for C/C++ programs, and Z3, a well-known SMT solver.
-  authors: Hongyu Fan, Fei He, Zhihang Sun
+  description: [Zord](../_pages/zord.html) is a bounded model checker for concurrent programs. We propose a new ordering consistency theory for concurrent program verification under sequential consistency, and we elaborate its theory solver. 
+  authors: Fei He, Zhihang Sun, Hongyu Fan
   link_number: 2
   links:
   - url: https://cloud.tsinghua.edu.cn/f/ee6cce063c9c4b2394d3/
