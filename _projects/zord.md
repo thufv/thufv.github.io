@@ -1,9 +1,7 @@
 ---
 layout: default
 title: Satisfiability Modulo Ordering Consistency Theory for Multi-threaded Program Verification
-permalink: /projects/zord.html
-#redirect_from:
-#  - /projects/zord.html
+permalink: /projects/zord
 ---
 
 ### <center>Satisfiability Modulo Ordering Consistency Theory for Multi-threaded Program Verification</center>
