@@ -3,8 +3,6 @@ title: "THUFV Lab - Project"
 layout: gridlay
 excerpt: "THUFV Lab -- Project"
 sitemap: false
-redirect_from:
-  - /zord/
 permalink: /projects/
 ---
 

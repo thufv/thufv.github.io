@@ -7,7 +7,7 @@ redirect_from:
 
 ### <center>Satisfiability Modulo Ordering Consistency Theory for Multi-threaded Program Verification</center>
 
-#### <center>Fei He, Zhihang Sun, and Hongyu Fan</center>
+#### <center><a href="https://feihe.github.io/">Fei He</a>, Zhihang Sun, and Hongyu Fan</center>
 
 ### <center>Abstract</center>
 

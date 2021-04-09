@@ -8,7 +8,7 @@
 
 - title: Zord
   image: zord.png
-  description: <a href="../_pages/zord.html">Zord</a> is a bounded model checker for concurrent programs. We propose a new ordering consistency theory for concurrent program verification under sequential consistency, and we elaborate its theory solver. 
+  description: <a href="../_projects/zord.html">Zord</a> is a bounded model checker for concurrent programs. We propose a new ordering consistency theory for concurrent program verification under sequential consistency, and we elaborate its theory solver. 
 #  links:
 #  - url: none
 #    display: paper
