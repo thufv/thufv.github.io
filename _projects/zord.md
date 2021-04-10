@@ -14,24 +14,17 @@ Analyzing multi-threaded programs is hard due to the number of thread interleavi
 
 ### <center>Source Code</center>
 
-The <a href="https://cloud.tsinghua.edu.cn/f/1dba0066f68c44f1a174/?dl=1">source code</a> contains all source code of our implemented tool, Zord. Please refer to readme.txt to compile Zord.
+Zord is the tool that implements our approach. The <a href="https://cloud.tsinghua.edu.cn/f/1dba0066f68c44f1a174/?dl=1">source code</a> contains all source code of Zord. Please refer to `readme.txt` for instructions to compile Zord.
 
 ### <center>Supplementary Data</center>
 
 The <a href="https://cloud.tsinghua.edu.cn/f/e71639808bbd4fddb276/?dl=1">supplementary archive</a> contains all data, tables and used benchmark programs in our evaluation. The following files are in the archive:
 
-    benchmarks/SVCOMP-Benchmarks/* : Benchmarks from SV-COMP 2019. We used them in experiments shown in section 6.2 and 6.3 of the paper.
+- `benchmarks/SVCOMP-Benchmarks/*`: Benchmarks from SV-COMP 2019, used in our main experiments (Sections 6.2 and 6.3).
 
-    benchmarks/Nidhugg-Benchmarks/* : Benchmarks we obtained from Nidhugg suite. We used them to evaluate Zord with stateless model checkers (section 6.4).
+- `benchmarks/Nidhugg-Benchmarks/* `: Benchmarks from Nidhugg suite, used in our experiment with stateless model checkers (Section 6.4).
 
-    logs/* : The raw output of each tool during all experiments.
+- `logs/*` : The raw outputs of each tool in all experiments.
 
-    tables/* : Processed results of all experiments, consistent with data in our paper, where
+- `tables/*` : Processed results of all experiments.
 
-        tables/Exp1-* shows the comparison of Zord with other state-of-the-art tools (section 6.2).
-
-        tables/Exp2-* shows the effect of passing FR derivation to the SMT solver (section 6.3).
-
-        tables/Exp3-* shows the effect of unit edge propagation (section 6.3).
-
-        tables/Exp4-* shows the comparison of Zord with GenMC and Nidhugg (section 6.4).
