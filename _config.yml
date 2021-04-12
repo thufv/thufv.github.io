@@ -19,6 +19,7 @@ include:
   - .htaccess
   - _pages
   - _projects
+  - _research
 
 sass:
   sass_dir: _sass
