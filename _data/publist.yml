@@ -1,3 +1,10 @@
+- title: "Termination Analysis for Evolving Programs : An Incremental Approach by Reusing Certified Modules"
+  authors: Fei He, Jitao Han
+  link:
+    url: https://dl.acm.org/doi/abs/10.1145/3428267
+    display: OOPSLA 2020
+  highlight: 0
+
 - title: "Interval Counterexamples for Loop Invariant Learning"
   authors: Rongchen Xu, Fei He and Bow-Yaw Wang
   link:
