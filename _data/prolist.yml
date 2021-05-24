@@ -14,9 +14,9 @@
 #    display: paper
   highlight: 1
 
-- title: FSE2020-Artifact
-  image: FSE2020-Artifact.png
-  description: <a href="../research/FSE2020-Artifact">FSE2020-Artifact</a> is our artifact for our FSE2020 paper. This artifact includes related benchmarks and a prototype including three different generalization techniques and an adapted decision tree.
+- title: fse2020-artifact
+  image: fse2020-artifact.png
+  description: <a href="../research/fse2020-artifact">FSE2020-Artifact</a> is our artifact for our FSE2020 paper. This artifact includes related benchmarks and a prototype including three different generalization techniques and an adapted decision tree.
   links: 
   - url: https://doi.org/10.1145/3368089.3409752
     display: paper
