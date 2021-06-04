@@ -76,7 +76,7 @@ Jump to [staff](#staff) and [bachelor students](#bachelor-students).
 
 
 
-## Bachelor Students
+## Students
 {% assign number_printed = 0 %}
 {% for member in site.data.students %}
 
