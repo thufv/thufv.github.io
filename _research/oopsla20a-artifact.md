@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Termination Analysis for Evolving Programs 
+title: "Termination Analysis for Evolving Programs"
 permalink: /research/oopsla20a-artifact
 ---
 
