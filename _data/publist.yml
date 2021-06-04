@@ -6,11 +6,13 @@
   highlight: 0
 
 - title: "Interval Counterexamples for Loop Invariant Learning"
+  image: fse2020-artifact.png
+  description: Interval counterexamples were introduced in this paper, each of which represents a set of counterexamples. With interval counterexamples, the number of iterations for loop invariant learning can be greatly reduced. 
   authors: Rongchen Xu, Fei He and Bow-Yaw Wang
   link:
-    url:
+    url: https://doi.org/10.1145/3368089.3409752
     display: ESEC/FSE 2020
-  highlight: 0
+  highlight: 1
 
 - title: "Multi-Atom Quasiparticle Scattering Interference for Superconductor Energy-Gap Symmetry Determination"
   authors: Jianhui Chen, Fei He
@@ -48,7 +50,6 @@
     url: https://dl.acm.org/citation.cfm?id=3238218
     display: ASE2018
   highlight: 1
-  news1:  <a href="https://aip.scitation.org/doi/10.1063/1.5043267">School of Software News (Chinese)</a>
 
 - title: "SMT-Based Query Tracking for Differentially Private Data Analytics Systems"
   authors: Chen Luo, Fei He

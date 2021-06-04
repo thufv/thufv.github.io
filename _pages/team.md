@@ -8,11 +8,9 @@ permalink: /team/
 
 # Group Members
 
-**We are looking for passionate new PhD students, Postdocs, and Master students to join the team! Do not hesitate to contact [us](hefei@tsinghua.edu.cn) if you're interested to our research.**
+**We are looking for passionate new PhD students, Postdocs, and Master students to join the team! Do not hesitate to contact us if you're interested to our research.**
 
-Jump to [staff](#staff) and [bachelor students](#bachelor-students).
-
-## Staff
+## Faculty
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
 
