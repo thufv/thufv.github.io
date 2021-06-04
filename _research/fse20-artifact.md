@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Interval Counterexamples for Loop Invariant Learning"
-permalink: /research/fse2020-artifact
+permalink: /research/fse20-artifact
 ---
 
 ### <center>Interval Counterexamples for Loop Invariant Learning</center>

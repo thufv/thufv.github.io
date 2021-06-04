@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Termination Analysis for Evolving Programs 
-permalink: /research/oopsla2020a-artifact
+permalink: /research/oopsla20a-artifact
 ---
 
 ### <center> Termination Analysis for Evolving Programs : An Incremental Approach by Reusing Certified Modules</center>
