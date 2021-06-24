@@ -18,101 +18,101 @@ Software products are evolving during their life cycles. Ideally, every revision
 
 1. **Download and import the VM**
 
-We provide a virtual machine in `ova` format, which takes up about *2.72GB* and will take several tens of minutes to download (depends on your network bandwidth). The VM link is [paper233-artifact-VM.ova](https://drive.google.com/file/d/1olAs3aZ1nXc6l5x1R--LiJTdPznOUMPZ/view?usp=sharing). When you finish downloading the VM, please import it to VMWare or Virtual Box (or other softwares that support `ova` format). Note that **4GB** of memory and **2 CPU cores** are minimal requirement when importing the VM.
+  We provide a virtual machine in `ova` format, which takes up about *2.72GB* and will take several tens of minutes to download (depends on your network bandwidth). The VM link is [paper233-artifact-VM.ova](https://drive.google.com/file/d/1olAs3aZ1nXc6l5x1R--LiJTdPznOUMPZ/view?usp=sharing). When you finish downloading the VM, please import it to VMWare or Virtual Box (or other softwares that support `ova` format). Note that **4GB** of memory and **2 CPU cores** are minimal requirement when importing the VM.
 
 2. **Enter the working directory**
 
-Run the VM and login with username **paper233** and password **123456**. Then enter the working directory by: 
+  Run the VM and login with username **paper233** and password **123456**. Then enter the working directory by: 
 
-```bash
-cd ~/cpachecker-ipa
-```
+  ```bash
+  cd ~/cpachecker-ipa
+  ```
 
 3. **Attach to the VM via a custom terminal**
 
-Except the console provided by VM software, one can also attach to the VM via ssh. First of all, look up the IP address by typing the following command:
+  Except the console provided by VM software, one can also attach to the VM via ssh. First of all, look up the IP address by typing the following command:
 
-```bash
-ifconfig ens33 | grep "inet addr"
-```
+  ```bash
+  ifconfig ens33 | grep "inet addr"
+  ```
 
-We take the IP address "172.16.11.130" as an example. The next step is to ssh to the VM by your handy terminal app:
+  We take the IP address "172.16.11.130" as an example. The next step is to ssh to the VM by your handy terminal app:
 
-```bash
-ssh paper233@172.16.11.130
-```
+  ```bash
+  ssh paper233@172.16.11.130
+  ```
 
-After typing the password **123456**, you can access to the VM via a custom terminal.
+  After typing the password **123456**, you can access to the VM via a custom terminal.
 
 4. **Run the kick-off script**
 
-Run the following script to start a verification case with 2 verification tasks and see the effect of our approach compared to the baseline:
+  Run the following script to start a verification case with 2 verification tasks and see the effect of our approach compared to the baseline:
 
-```bash
-./quick-start.sh	
-```
+  ```bash
+  ./quick-start.sh	
+  ```
 
-The script will call `quick-start-baseline.xml` and `quick-start-ipa.xml` which take a few minutes to finish. Ignore the warning information because they do not affect the result:
+  The script will call `quick-start-baseline.xml` and `quick-start-ipa.xml` which take a few minutes to finish. Ignore the warning information because they do not affect the result:
 
-- *The first warning says that a propertyfile is not specified. A property file is used by the software-verification competition (see https://sv-comp.sosy-lab.org/2020/index.php) to score the verification tasks. We do not need the score, so this warning can be ignored.*
-- *The second warning is also negligible. It means that a required JAR file is missing. However, we run our tool by Java class file (see ./bin directory).*
+  - *The first warning says that a propertyfile is not specified. A property file is used by the software-verification competition (see https://sv-comp.sosy-lab.org/2020/index.php) to score the verification tasks. We do not need the score, so this warning can be ignored.*
+  - *The second warning is also negligible. It means that a required JAR file is missing. However, we run our tool by Java class file (see ./bin directory).*
 
-The verification result of each verification task and the total running CPU time will be presented on the screen. Browse the `output-quick-start` directory to check the details of result further.
+  The verification result of each verification task and the total running CPU time will be presented on the screen. Browse the `output-quick-start` directory to check the details of result further.
 
 #### **More details**
 
 1. **Directory information**
 
-The working directory contains all logs, tables, used benchmark programs, and configurations as well as a directory of java class of our tool. Our tool is built from CPAchecker-1.4. The following (relevant) files are in this directory:
+  The working directory contains all logs, tables, used benchmark programs, and configurations as well as a directory of java class of our tool. Our tool is built from CPAchecker-1.4. The following (relevant) files are in this directory:
 
-```
-bin/ The java classes of our tool.
-config/	The CPAchecker configuration files that we used in the experiments.
-lib/ The libraries required by our tool.
-our-results/	Our raw results, including log files and tables.
-output*/ The intermediate results generated by running baseline or our approach.
-programs/	The driver revisions.
-sf-cfadiff/ The directory of CFADiff, presented as python binaries for now.
-src/ The directory of source code.
-run-*.xml	The input files for our benchmarking script:
-			- run-baseline-simple.xml: Benchmark part of the verification cases using baseline configuration.
-			- run-ipa-simple.xml: Benchmark part of the verification cases using our approach.
-			- run-baseline-all.xml: Benchmark all verification cases using baseline configuration.
-			- run-ipa-all.xml: Benchmark all verification cases using our approach.
-build.sh: The push-button script for compiling.
-quick-start.sh: A kick-off script to start our tool.
-```
+  ```
+  bin/ The java classes of our tool.
+  config/	The CPAchecker configuration files that we used in the experiments.
+  lib/ The libraries required by our tool.
+  our-results/	Our raw results, including log files and tables.
+  output*/ The intermediate results generated by running baseline or our approach.
+  programs/	The driver revisions.
+  sf-cfadiff/ The directory of CFADiff, presented as python binaries for now.
+  src/ The directory of source code.
+  run-*.xml	The input files for our benchmarking script:
+        - run-baseline-simple.xml: Benchmark part of the verification cases using baseline configuration.
+        - run-ipa-simple.xml: Benchmark part of the verification cases using our approach.
+        - run-baseline-all.xml: Benchmark all verification cases using baseline configuration.
+        - run-ipa-all.xml: Benchmark all verification cases using our approach.
+  build.sh: The push-button script for compiling.
+  quick-start.sh: A kick-off script to start our tool.
+  ```
 
 2. **Output files**
 
-The output directory is specified by ```-output``` option (defined in the XML format benchmarking script). Typically, in an output path, the following files are included:
+  The output directory is specified by ```-output``` option (defined in the XML format benchmarking script). Typically, in an output path, the following files are included:
 
-```
-impacted-invariants.txt: The annotation file.
-current_cfa.dot: The control-flow graph of current program revision, presented as graphviz format.
-previous_cfa.dot: The control-flow graph of previous program revision, presented as graphviz format.
-previous_cfa.log: The log file of CFADiff algorithm.
-Statistics.txt: The log file.
-```
+  ```
+  impacted-invariants.txt: The annotation file.
+  current_cfa.dot: The control-flow graph of current program revision, presented as graphviz format.
+  previous_cfa.dot: The control-flow graph of previous program revision, presented as graphviz format.
+  previous_cfa.log: The log file of CFADiff algorithm.
+  Statistics.txt: The log file.
+  ```
 
 3. **Reproduce the experiment in VM**
 
-After configuring the VM by (at least) **2 CPU cores**, **10GB** memory and **20GB** disk space, type the following scripts to run the full experiment.
+  After configuring the VM by (at least) **2 CPU cores**, **10GB** memory and **20GB** disk space, type the following scripts to run the full experiment.
 
-```bash
-# Entering the project root
-cd ~/cpachecker-ipa
-# Benchmarking baseline configuration
-benchexec run-baseline-all.xml
-# Benchmarking ipa configuration
-benchexec run-ipa-all.xml
-```
+  ```bash
+  # Entering the project root
+  cd ~/cpachecker-ipa
+  # Benchmarking baseline configuration
+  benchexec run-baseline-all.xml
+  # Benchmarking ipa configuration
+  benchexec run-ipa-all.xml
+  ```
 
-While benchmarking `baseline` and `ipa` configurations will take about *50h* and *20h* respectively (on the machine mentioned in our paper), one can try running `benchexec run-*-simple.xml` to start part of the experiment, which can finish within half an hour.
+  While benchmarking `baseline` and `ipa` configurations will take about *50h* and *20h* respectively (on the machine mentioned in our paper), one can try running `benchexec run-*-simple.xml` to start part of the experiment, which can finish within half an hour.
 
 4. **Browse the log files**
 
-In `our-results` directory, `log-baseline-all` and `log-ipa-all` are archives of log files for the complete experiment of baseline and our approach, respectively. `log-baseline-all.csv` and `log-ipa-all.csv` are raw results generated from these log files. `result.xlsx` is the final experimental results.
+  In `our-results` directory, `log-baseline-all` and `log-ipa-all` are archives of log files for the complete experiment of baseline and our approach, respectively. `log-baseline-all.csv` and `log-ipa-all.csv` are raw results generated from these log files. `result.xlsx` is the final experimental results.
 
 ## Step by Step Instructions
 
@@ -122,34 +122,34 @@ For users who want to run our tool and reproduce the experiment in a fresh machi
 
 1. **System and resource**
 
-The operating system required is `Ubuntu 16.04`. In order to conduct a complete experiment, the minimal resource of **2 CPU cores**, **10GB** available memory and **20GB** available disk space must be satisfied.
+  The operating system required is `Ubuntu 16.04`. In order to conduct a complete experiment, the minimal resource of **2 CPU cores**, **10GB** available memory and **20GB** available disk space must be satisfied.
 
-While we fully test our tool on Ubuntu 16.04, you can also try other linux releases (or linux-like system) at your own risk. Our tool is also supported in `MacOS`, readers can install the required packages (for example, use `Homebrew` package manager) and make necessary configuration. The instructions for MacOS are beyond the scope of this document.
+  While we fully test our tool on Ubuntu 16.04, you can also try other linux releases (or linux-like system) at your own risk. Our tool is also supported in `MacOS`, readers can install the required packages (for example, use `Homebrew` package manager) and make necessary configuration. The instructions for MacOS are beyond the scope of this document.
 
-In the following, we provide detailed instructions for Ubuntu 16.04.
+  In the following, we provide detailed instructions for Ubuntu 16.04.
 
 2. **Packages**
 
-In order to build our tool successfully, the following packages are needed: `ant` and `java8`. Run the following scripts:
+  In order to build our tool successfully, the following packages are needed: `ant` and `java8`. Run the following scripts:
 
-```bash
-sudo apt-get install ant openjdk-8-jdk
-```
+  ```bash
+  sudo apt-get install ant openjdk-8-jdk
+  ```
 
-To run the tool, some extra packages are required. Please refer to the following scripts.
+  To run the tool, some extra packages are required. Please refer to the following scripts.
 
-```bash
-# Support the dot format
-sudo apt-get install python-pydot python-pydot-ng graphviz libgraphviz-dev libbz2-dev
-```
+  ```bash
+  # Support the dot format
+  sudo apt-get install python-pydot python-pydot-ng graphviz libgraphviz-dev libbz2-dev
+  ```
 
-Before install the packages required by CFADiff, please install `python3.8` in your way. And then, type the following command:
+  Before install the packages required by CFADiff, please install `python3.8` in your way. And then, type the following command:
 
-```bash
-# Some python package required by CFADiff
-# An upgrade for pip may be required: pip3 install --upgrade pip
-pip3 install pygraphviz fuzzywuzzy networkx numpy python-Levenshtein matplotlib
-```
+  ```bash
+  # Some python package required by CFADiff
+  # An upgrade for pip may be required: pip3 install --upgrade pip
+  pip3 install pygraphviz fuzzywuzzy networkx numpy python-Levenshtein matplotlib
+  ```
 
 #### **Compilation**
 
@@ -203,16 +203,16 @@ benchexec run-ipa-all.xml
 
 1. Generate the raw results from logs
 
-After finishing the experiment, the archive of log files is in `results` directory. We prepare a script that collects main information from logs and generate a table in `csv` format (you can also implement your own script for this purpose). For example:
+  After finishing the experiment, the archive of log files is in `results` directory. We prepare a script that collects main information from logs and generate a table in `csv` format (you can also implement your own script for this purpose). For example:
 
-```bash
-cd results
-unzip run-ipa-all.XXX.logfiles.zip # Note that 'XXX' will be a time stamp
-cd ~/cpachecker-ipa/
-python scripts/generate_raw_table.py results/run-ipa-all.XXX.logfiles
-# Check the generated raw table
-cat results/run-ipa-all.XXX.csv
-```
+  ```bash
+  cd results
+  unzip run-ipa-all.XXX.logfiles.zip # Note that 'XXX' will be a time stamp
+  cd ~/cpachecker-ipa/
+  python scripts/generate_raw_table.py results/run-ipa-all.XXX.logfiles
+  # Check the generated raw table
+  cat results/run-ipa-all.XXX.csv
+  ```
 
 2. Claims
    - The performance of running CPU time may differ among machines due to the CPU and disk performance.
