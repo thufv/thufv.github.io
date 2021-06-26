@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Efficient Summary Reuse for Software Regression Verification"
-permalink: /research/tse2020-artifact
+permalink: /research/tse20-artifact
 ---
 
 ### <center> Efficient Summary Reuse for Software Regression Verification </center>
