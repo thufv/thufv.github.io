@@ -14,19 +14,19 @@ Research on program termination has a long tradition. However, most of the exist
 
 ### <center>Artifact</center>
 
-The  [artifact archive](https://cloud.tsinghua.edu.cn/f/9cf41e3252eb4b4d8ae3/?dl=1) contains tool, source code, results and used benchmark programs in our evaluation. For details, please refer to `README.md` in the archive.  
+The  [artifact archive](https://drive.google.com/file/d/1Hwj9QDE7SUVWye_RBdvoHOtbtY5lE1sr/view?usp=sharing) contains tool, source code, results and used benchmark programs in our evaluation. For details, please refer to `README.md` in the archive.  
 
 ### <center>Full Results</center>
 
 The full experimental results on artificial benchmarks and real-world benchmarks can be found in the following tables:
 
-- [Tables for summary results](https://cloud.tsinghua.edu.cn/f/3e3525dec69f44c28ab8/?dl=1).
-- [Tables for detail results](https://cloud.tsinghua.edu.cn/f/b38c0908f02948a3aa91/?dl=1)
+- [Tables for summary results](https://drive.google.com/file/d/1FpCsSnBHiJN-4CrPnTtIcxrbN-IEHcqP/view?usp=sharing).
+- [Tables for detail results](https://drive.google.com/file/d/1x8CCax2RbxQtQAkDO3HKxy4nHbvCvfLD/view?usp=sharing)
 
 ### <center>Benchmark</center>
 
 The artificial benchmarks and real-world benchmarks can be found in the following link:
 
-- [Artificial Benchmark](https://cloud.tsinghua.edu.cn/f/96f03a5955c143948081/?dl=1): The benchmark consists of 90 revisions of 15 distinct programs. The 15 original programs were obtained from [Heizmann et al. 2014].
-- [Real-world Benchmarks](https://cloud.tsinghua.edu.cn/f/e6f8eb2602654a258c79/?dl=1): This set of programs were collected from [Codeforces](https://codeforces.com/), a website that hosts competitive programming contests. In order not to disclose user information, we anonymize the program. 
+- [Artificial Benchmark](https://drive.google.com/file/d/1cbLsy6WEqbZOM9b6_OL5f24JkC6pSTEy/view?usp=sharing): The benchmark consists of 90 revisions of 15 distinct programs. The 15 original programs were obtained from [Heizmann et al. 2014].
+- [Real-world Benchmarks](https://drive.google.com/file/d/1xNDp70Fy5zxufHyMnwYLGvmaOz9pSJci/view?usp=sharing): This set of programs were collected from [Codeforces](https://codeforces.com/), a website that hosts competitive programming contests. In order not to disclose user information, we anonymize the program. 
   **Please Note: If it involves infringement, please contact us to delete it!**
