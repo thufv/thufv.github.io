@@ -1,7 +1,7 @@
 ---
-title: "Allan Lab - Team"
+title: "THUFV Lab - Publications"
 layout: gridlay
-excerpt: "Allan Lab: Team members"
+excerpt: "THUFV Lab: Team members"
 sitemap: false
 permalink: /team/
 ---
