@@ -4,25 +4,24 @@ title: Interference Relation-Guided SMT Solving for Multi-Threaded Program Verif
 permalink: /research/ppopp22-artifact
 ---
 
-### <center>Interference Relation-Guided SMT Solving for Multi-Threaded Program Verification</center>
+## <center>Interference Relation-Guided SMT Solving for Multi-Threaded Program Verification</center>
 
 #### <center>Hongyu Fan, Weiting Liu, and <a href="https://feihe.github.io/">Fei He</a></center>
 
-### <center>Abstract</center>
+## <center>Abstract</center>
 
 Concurrent program verification is challenging due to a large number of thread interferences. A popular approach is to encode concurrent programs as SMT formulas and then rely on off-the-shelf SMT solvers to accomplish the verification. Experimental results show the promising improvements of our approach. In most existing works, an SMT solver is simply treated as the backend. There is little research on improving SMT solving for concurrent program verification.
 
 In this paper, we recognize the characteristics of interference relation in multi-threaded programs and propose a novel approach for utilizing the interference relation in the SMT solving of multi-threaded program verification under various memory models. We show that the backend SMT solver can benefit a lot from the domain knowledge of concurrent programs. We implemented our approach in a prototype tool called Zpre and compared it with the state-of-the-art CBMC tool on credible benchmarks from the ConcurrencySafety category of SV-COMP 2019. Experimental results show promising improvements attributed to our approach.
 
 
-# <center>Artifact</center>
+## <center>Artifact</center>
 
 The <a href="https://zenodo.org/record/5725047/files/Artifact.zip?download=1">artifact</a> contains all scripts, source code, log files, and benchmarks in our evaluation.
 
 ------------------------------------------------------------------------------
 
-Environment
---------------------------------------
+### Environment
 
   - All the experiments are conducted on Ubuntu 18.04.
   - Prerequisites: cmake g++ gcc flex bison make git libwww-perl patch doxygen
@@ -31,8 +30,7 @@ Environment
 
 ------------------------------------------------------------------------------
 
-Preparation (Optional)
---------------------------------------
+### Preparation (Optional)
 
 
 * Pre-compiled binaries `cbmc, z3` are available. If your want to recompile them, just run:
@@ -45,8 +43,7 @@ Preparation (Optional)
 
 --------------------------------------
 
-Getting Started
---------------------------------------
+### Getting Started
 
 This section shows how to set up the artifact quickly in a small subset of benchmarks.
 
@@ -63,8 +60,7 @@ Finally, Three excel files -- `sc.xlsx`, `tso.xlsx`, and `pso.xlsx` will be gene
 
 --------------------------------------
 
-Full Experiment
---------------------------------------
+### Full Experiment
 
 This section shows how to set up the artifact in all the benchmarks.
 
@@ -76,8 +72,7 @@ This section shows how to set up the artifact in all the benchmarks.
 The detailed procedure is the same as in `Getting Start`.
 
 --------------------------------------
-Directory Structure of the Artifact
-------------------------------------------------------------------------------
+### Directory Structure of the Artifact
 
 The artifact consists of the following four directories:
 
