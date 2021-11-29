@@ -35,11 +35,13 @@ Preparation (Optional)
 --------------------------------------
 
 
-* Pre-compiled binaries **cbmc, z3** are available. If your want to recompile them, just run:
+* Pre-compiled binaries `cbmc, z3` are available. If your want to recompile them, just run:
 
-  > ./compile.sh
+  ```
+  ./compile.sh 
+  ```
   
-    then **cbmc** and **z3** will be compiled and copied to the current folder.
+    then `cbmc` and `z3` will be compiled and copied to the current folder.
 
 --------------------------------------
 
@@ -48,14 +50,16 @@ Getting Started
 
 This section shows how to set up the artifact quickly in a small subset of benchmarks.
 
-* Just using the following command. **It will finish within 30 minutes.**
-  >  ./run.sh
+* Just using the following command. `It will finish within 30 minutes.`
+  ```
+  ./run.sh
+  ```
 
-First, **run.sh** calls **cbmc** to generate SMT files from **benchmarks/** folder, which contains a small subset of benchmarks (randomly select from solvable examples). Three new folders -- **smt_sc/**, **smt_tso/**, and **smt_pso/** will be created; they contain the generated SMT files under SC/TSO/PSO memory models.
+First, `run.sh` calls `cbmc` to generate SMT files from `benchmarks/` folder, which contains a small subset of benchmarks (randomly select from solvable examples). Three new folders -- `smt_sc/`, `smt_tso/`, and `smt_pso/` will be created; they contain the generated SMT files under SC/TSO/PSO memory models.
 
-Secondly, **run.sh** calls **z3** to perform SMT solving with **default/partial-pre/all-pre** solving strategies. Three new folders -- **/results-sc**, **/results-tso**, and **/results-pso** will be generated; they contain log files under SC/TSO/PSO memory models.
+Secondly, `run.sh` calls `z3` to perform SMT solving with `default/partial-pre/all-pre` solving strategies. Three new folders -- `/results-sc`, `/results-tso`, and `/results-pso` will be generated; they contain log files under SC/TSO/PSO memory models.
 
-Finally, Three excel files -- **sc.xlsx**, **tso.xlsx**, and **pso.xlsx** will be generated; they correspond to solving time of z3 with different strategies under SC/TSO/PSO memory models.
+Finally, Three excel files -- `sc.xlsx`, `tso.xlsx`, and `pso.xlsx` will be generated; they correspond to solving time of z3 with different strategies under SC/TSO/PSO memory models.
 
 --------------------------------------
 
@@ -64,10 +68,12 @@ Full Experiment
 
 This section shows how to set up the artifact in all the benchmarks.
 
-* Just using the following command. **Dozens of hours is demand for this step.**
-  >  ./run.sh ./benchmarks_all
+* Just using the following command. `Dozens of hours is demand for this step.`
+  ```
+  ./run.sh ./benchmarks_all
+  ```
 
-The detailed procedure is the same as in **Getting Start**.
+The detailed procedure is the same as in `Getting Start`.
 
 --------------------------------------
 Directory Structure of the Artifact
@@ -75,39 +81,39 @@ Directory Structure of the Artifact
 
 The artifact consists of the following four directories:
 
-  + **benchmarks/**
+  - `benchmarks/`
 
-    Contains a small subset of solvable benchmarks randomly selected from **benchmarks_all/**.
+    Contains a small subset of solvable benchmarks randomly selected from `benchmarks_all/`.
 
-  + **benchmarks_all/**
+  + `benchmarks_all/`
 
     Contains all the benchmarks used in evaluation. They are from the ConcurrentSafety Category of SV-COMP 2019; it contains 12 sub-categories.
 
-  + **logs-in-paper/**
+  + `logs-in-paper/`
 
     log files and experimental results in paper
 
-  + **compile.sh**
+  + `compile.sh`
 
     Shell script to recompile cbmc and z3 (optional).
 
-  + **run.sh**
+  + `run.sh`
 
     Shell scripts to generates and solves SMT files; and generates result files. 
 
-  + **generate_SMT.py**
+  + `generate_SMT.py`
 
     Python script to generate SMT files under SC/TSO/PSO memory model.
 
-  + **call-solver.py**
+  + `call-solver.py`
 
     Python scripts to call Z3 with different strategies.
 
-  + **CBMC-PRE/**
+  + `CBMC-PRE/`
 
     Source code of our modified cbmc
 
-  + **Z3-PRE/**
+  + `Z3-PRE/`
 
     Source code of our modified z3
 
