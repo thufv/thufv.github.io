@@ -19,7 +19,7 @@ The <a href="https://doi.org/10.5281/zenodo.5442280">docker image</a> contains a
 
 ------------------------------------------------------------------------------
 
-## Install 
+## <center>Install</center>
 ### Docker
 1. Follow the [installation documents](https://docs.docker.com/get-docker/)
 2. Use the file `ddlTerm.dockerfile` in `docker` to build the image
@@ -56,7 +56,7 @@ The <a href="https://doi.org/10.5281/zenodo.5442280">docker image</a> contains a
    
 * Unzip the zip file, copy the inside `bin/z3` into `ice/popl16_artifact/Boogie/Binaries` and rename it to `z3.exe`
 
-## Run Experiments
+## <center>Run Experiments</center>
 ### Docker
 1. Start the docker image (replace `/path/to/a/directory/to/save/the/result`)
     ```sh
@@ -87,7 +87,7 @@ The <a href="https://doi.org/10.5281/zenodo.5442280">docker image</a> contains a
 * updating the timeout setting in configuration XML files according to performance of your machine.
 * setting the cpu limit to one core using [cgroup](https://man7.org/linux/man-pages/man7/cgroups.7.html). (By default, cpu limit has been used in docker running)
 
-## Baseline in Our Paper
+## <center>Baselines in Our Paper</center>
 If you want to make a comparative experiment, please follow the install instruments for our baseline tools.
 
 * [AProVE](https://aprove.informatik.rwth-aachen.de/)
@@ -98,6 +98,7 @@ If you want to make a comparative experiment, please follow the install instrume
 
 * [FreqTerm](https://github.com/grigoryfedyukovich/aeval/tree/term)
 
+Notes:
 * **Remember** to set the cpu limit to one core using [cgroup](https://man7.org/linux/man-pages/man7/cgroups.7.html) or by the parameter `--cpus` if using `docker`.
 
 * The [benchmarks](https://github.com/grigoryfedyukovich/aeval/tree/term) locate in `experiment/benchmarks`.
@@ -107,6 +108,6 @@ If you want to make a comparative experiment, please follow the install instrume
 * We provide some useful scripts in `experiment/baseline.scripts` to run the experiments for `AProVE`, `Ultimate Automizer` and `FreqTerm`. 
   You can modify the path in the scripts to run these tools. We hope these scripts are useful for you.
 
-## Licenses
+## <center>Licenses</center>
 The safety validator from ICE-DT (locates in ice/popl16_artifact) follows [Microsoft Public License (MS-PL)](https://opensource.org/licenses/MS-PL). The benchmarks from FreqTerm follows [Seahorn License](https://github.com/grigoryfedyukovich/aeval/blob/term/seahorn_license.txt). The other part of our repository follows [Apache License 2.0](https://opensource.org/licenses/Apache-2.0).
 
