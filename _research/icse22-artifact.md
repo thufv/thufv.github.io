@@ -90,20 +90,15 @@ The <a href="https://doi.org/10.5281/zenodo.5442280">docker image</a> contains a
 If you want to make a comparative experiment, please follow the install instruments for our baseline tools.
 
 * [AProVE](https://aprove.informatik.rwth-aachen.de/)
-
 * [Ultimate Automizer](https://monteverdi.informatik.uni-freiburg.de/tomcat/Website/?ui=tool&tool=automizer)
-
 * [MuVal](https://zenodo.org/record/4747775#.YTMryHUzaV4)
-
 * [FreqTerm](https://github.com/grigoryfedyukovich/aeval/tree/term)
 
 Notes:
 * **Remember** to set the cpu limit to one core using [cgroup](https://man7.org/linux/man-pages/man7/cgroups.7.html) or by the parameter `--cpus` if using `docker`.
-
 * The [benchmarks](https://github.com/grigoryfedyukovich/aeval/tree/term) locate in `experiment/benchmarks`.
     * C-style can be used for `AProVE`, `Ultimate Automizer` and `MuVal`.
     * Horn-style can be used for `FreqTerm`.
-
 * We provide some useful scripts in `experiment/baseline.scripts` to run the experiments for `AProVE`, `Ultimate Automizer` and `FreqTerm`. 
   You can modify the path in the scripts to run these tools. We hope these scripts are useful for you.
 
