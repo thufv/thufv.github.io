@@ -17,7 +17,6 @@ Termination is a fundamental liveness property for program verification. A loop 
 
 The <a href="https://doi.org/10.5281/zenodo.5442280">docker image</a> contains all scripts, source code and benchmarks in our evaluation.
 
-------------------------------------------------------------------------------
 
 ## <center>Install</center>
 ### Docker
@@ -111,3 +110,4 @@ Notes:
 ## <center>Licenses</center>
 The safety validator from ICE-DT (locates in ice/popl16_artifact) follows [Microsoft Public License (MS-PL)](https://opensource.org/licenses/MS-PL). The benchmarks from FreqTerm follows [Seahorn License](https://github.com/grigoryfedyukovich/aeval/blob/term/seahorn_license.txt). The other part of our repository follows [Apache License 2.0](https://opensource.org/licenses/Apache-2.0).
 
+------------------------------------------------------------------------------
