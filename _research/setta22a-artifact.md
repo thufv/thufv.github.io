@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Mastery: Shifted-Code-Aware Structured Merging
+title: "Mastery: Shifted-Code-Aware Structured Merging"
 permalink: /research/setta22a-artifact
 ---
 
