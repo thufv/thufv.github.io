@@ -4,7 +4,7 @@ title: A Translator from P4 Programs to Boogie
 permalink: /research/P4-to-Boogie
 ---
 
-### <center>Satisfiability Modulo Ordering Consistency Theory for Multi-threaded Program Verification</center>
+### <center>P4B: A Translator from P4 Programs to Boogie</center>
 
 #### <center><a href="https://feihe.github.io/">Fei He</a>, Chong Ye</center>
 
