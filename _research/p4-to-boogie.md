@@ -15,7 +15,7 @@ Formal verification is a powerful technique to verify the correctness of P4 prog
 
 ### <center>Source Code</center>
 
-P4-to-Boogie is the tool that implements our approach. The <a href="https://cloud.tsinghua.edu.cn/f/1dba0066f68c44f1a174/?dl=1">source code</a> contains all source code of P4-to-Boogie. Please refer to `readme.txt` for instructions to compile Zord.
+P4-to-Boogie is the tool that implements our approach. The <a href="https://github.com/Invincibleyc/P4B-Translator">source code</a> contains all source code of P4-to-Boogie. Please refer to `README.md` for instructions to compile P4-to-Boogie.
 
 ### <center>Tool Usage</center>
 
