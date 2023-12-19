@@ -1,6 +1,6 @@
 ---
 layout: default
-title: P4Inv: Inferring Packet Invariants for Verification of Stateful P4 Programs
+title: P4Inv-Inferring Packet Invariants for Verification of Stateful P4 Programs
 permalink: /research/p4inv
 ---
 
