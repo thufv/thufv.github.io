@@ -10,9 +10,9 @@ permalink: /research/p4inv
 
 ### <center>Abstract</center>
 
-P4 is widely adopted for programming data planes in software-defined networking. Formal verification of P4 pro grams is essential to ensure network reliability and security. However, existing P4 verifiers overlook the stateful nature of packet processing, rendering them inadequate for verifying complex stateful P4 programs. 
+P4 is widely adopted for programming data planes in software-defined networking. Formal verification of P4 programs is essential to ensure network reliability and security. However, existing P4 verifiers overlook the stateful nature of packet processing, rendering them inadequate for verifying complex stateful P4 programs. 
 
-In this paper, we introduce a novel concept called packet invariants to address the stateful aspects of P4 programs. We present an automated verification tool specifically designed for stateful P4 programs. This algorithm efficiently discovers and validates packet invariants in a data-driven manner, offering a novel and effective verification approach for stateful P4 pro grams. To the best of our knowledge, this approach represents the f irst attempt to generate and leverage domain-specific invariants for P4 program verification. We implement our approach in a prototype tool called P4Inv. Experimental results demonstrate its effectiveness in verifying stateful P4 programs.
+In this paper, we introduce a novel concept called packet invariants to address the stateful aspects of P4 programs. We present an automated verification tool specifically designed for stateful P4 programs. This algorithm efficiently discovers and validates packet invariants in a data-driven manner, offering a novel and effective verification approach for stateful P4 programs. To the best of our knowledge, this approach represents the first attempt to generate and leverage domain-specific invariants for P4 program verification. We implement our approach in a prototype tool called P4Inv. Experimental results demonstrate its effectiveness in verifying stateful P4 programs.
 
 ### <center>Source Code</center>
 
