@@ -14,12 +14,12 @@
     display: ESEC/FSE 2020
   highlight: 1
 
-- title: "Multi-Atom Quasiparticle Scattering Interference for Superconductor Energy-Gap Symmetry Determination"
-  authors: Jianhui Chen, Fei He
-  link:
-    url: 
-    display: PLDI 2020
-  highlight: 0
+#- title: "Multi-Atom Quasiparticle Scattering Interference for Superconductor Energy-Gap Symmetry Determination"
+  #authors: Jianhui Chen, Fei He
+  #link:
+    #url: 
+    #display: PLDI 2020
+  #highlight: 0
 
 - title: "Enhancing precision of structured merge by proper tree matching"
   authors: Fengmin Zhu, Fei He, Qianshan Yu
