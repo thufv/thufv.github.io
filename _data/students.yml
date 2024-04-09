@@ -8,23 +8,36 @@
 #  education3:
 #  education4:
 #
-- name: Yang Zhang
-  photo: rock.jpg
-  info: Master student, enrolled at 2020
-  email: dimlight1998@gmail.com
-  number_intro: 0
-
 - name: Zhihang Sun
   photo: rock.jpg
   info: PhD student, enrolled at 2020
   email:
   number_intro: 0
 
+- name: Yang Zhang
+  photo: rock.jpg
+  info: Master student, enrolled at 2020
+  email: dimlight1998@gmail.com
+  number_intro: 0
+
+- name: Zhilei Han
+  info: PhD student, enrolled at 2021
+  email: hzl21@mails.tsinghua.edu.cn
+  info: https://linusboyle.cn
+
 - name: Xingyu Xie
   photo: rock.jpg
   info: Master student, enrolled at 2021
   email: xiexy17@mails.tsinghua.edu.cn
 
-- name: Zhilei Han
-  info: PhD student, enrolled at 2021
-  email: hzl21@mails.tsinghua.edu.cn 
+- name: Biting Huang
+  info: PhD student, enrolled at 2022
+
+- name: Zhijie Xu
+  info: PhD student, enrolled at 2022
+
+- name: Delong Zhang
+  info: Master student, enrolled at 2022
+
+- name: Pei Wang
+  info: PhD student, enrolled at 2023
