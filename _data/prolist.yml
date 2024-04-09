@@ -17,6 +17,7 @@
 - title: P4-to-Boogie
   image: p4-to-boogie.png
   description: <a href="../research/P4-to-Boogie">P4-to-Boogie</a> is an translator that translates P4 programs to Boogie programs automatically. We propose formal translation rules to ensure the correctness of the translation process. The translated results can be verified by the toolchain of Boogie.
+  highlight: 1
 
 - title: RSLearn
   description: <a href="../research/icse23-artifact">RSLearn</a> is a data-driven non-termination analysis tool based on Boogie and ICE learning algorithm.
