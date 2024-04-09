@@ -4,7 +4,7 @@ title: Data-driven Recurrent Set Learning For Non-termination Analysis
 permalink: /research/icse23-artifact
 ---
 
-## <center>Data-driven RecData-Driven Loop Bound Learning for Termination Analysisurrent Set Learning For Non-termination Analysis</center>
+## <center>Data-driven Recurrent Set Learning For Non-termination Analysis</center>
 
 #### <center><a herf="https://linusboyle.cn">Zhilei Han</a> and <a href="https://feihe.github.io/">Fei He</a></center>
 
