@@ -126,3 +126,56 @@ permalink: /team/
 {% if even_odd == 1 %}
 </div>
 {% endif %}
+
+## Alumni
+{% assign number_printed = 0 %}
+{% for member in site.data.alumnis %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+
+{% if even_odd == 0 %}
+<div class="row">
+{% endif %}
+
+<div class="col-sm-6 clearfix">
+  <h4>{{ member.name }}</h4>
+  <i>{{ member.info }}<br>email: <{{ member.email }}></i>
+  <ul style="overflow: hidden">
+
+  {% if member.number_intro == 1 %}
+  <li> {{ member.intro1 }} </li>
+  {% endif %}
+
+  {% if member.number_intro == 2 %}
+  <li> {{ member.intro1 }} </li>
+  <li> {{ member.intro2 }} </li>
+  {% endif %}
+
+  {% if member.number_intro == 3 %}
+  <li> {{ member.intro1 }} </li>
+  <li> {{ member.intro2 }} </li>
+  <li> {{ member.intro3 }} </li>
+  {% endif %}
+
+  {% if member.number_intro == 4 %}
+  <li> {{ member.intro1 }} </li>
+  <li> {{ member.intro2 }} </li>
+  <li> {{ member.intro3 }} </li>
+  <li> {{ member.intro4 }} </li>
+  {% endif %}
+
+  </ul>
+</div>
+
+{% assign number_printed = number_printed | plus: 1 %}
+
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
+{% endfor %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 1 %}
+</div>
+{% endif %}
