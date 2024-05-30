@@ -16,7 +16,7 @@ In this paper, we introduce a novel concept called packet invariants to address 
 
 ### <center>Slide</center>
 
-The slides for P4Inv can be found [here](https://cloud.tsinghua.edu.cn/f/b3e83dde23bc4a0b8784/?dl=1). 
+We have presented our work at INFOCOM 2024. The slides for out paper can be found [here](https://cloud.tsinghua.edu.cn/f/b3e83dde23bc4a0b8784/?dl=1). 
 
 ### <center>Source Code</center>
 
