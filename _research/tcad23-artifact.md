@@ -12,7 +12,7 @@ permalink: /research/tcad23-artifact
 
 IC3 is a famous bit-level framework for safety verification. By incorporating datapath abstraction, a notable enhancement in the efficiency of hardware verification can be achieved. However, datapath abstraction entails a coarse level of abstraction where all datapath operations are approximated as uninterpreted functions (UFs). This level of abstraction, albeit useful, can lead to an increased computational burden during the verification process as it necessitates extensive exploration of redundant abstract state space. In this article, we introduce a novel approach called datapath propagation. Our method involves leveraging concrete constant values to iteratively compute the outcomes of relevant datapath operations and their associated UFs. Meanwhile, we generate potentially useful datapath propagation lemmas in abstract state space and tighten the datapath abstraction. With this technique, the abstract state space can be reduced, and the verification efficiency is significantly improved. We implemented the proposed approach and conducted extensive experiments. The results show promising improvements of our approach compared to the state-of-the-art verifiers.
 
-## <center>Datapath propagation
+## <center>Datapath propagation</center>
 
 * Data-path propagation (DPP) is the core innovation of the paper.
 * DPP Moderately repay the semantics of datapath operations according to the pre-established rules.
@@ -66,7 +66,7 @@ This section shows how to set up the artifact in all the benchmarks.
 
 ### Directory Structure of the Artifact
 
-The artifact consists of the following four directories:
+The artifact consists of the following directories:
 
   - `./build`
 
