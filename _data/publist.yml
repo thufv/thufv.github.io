@@ -1,3 +1,10 @@
+- title: "Accurate Inference of Termination Conditions"
+  authors: Biting Huang, Zhilei Han and Fei He
+  link:
+    url: https://doi.org/10.1145/3744916.3764568
+    display: ICSE 2026
+  highlight: 0
+
 - title: "Termination Analysis for Evolving Programs : An Incremental Approach by Reusing Certified Modules"
   authors: Fei He, Jitao Han
   link:
