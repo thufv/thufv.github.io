@@ -1,3 +1,12 @@
+- title: "A Refined Ordering Consistency Theory: Full Sequential Consistency and Generalized Preventive Reasoning"
+  authors: Zhiheng Cai, Zhihang Sun and Fei He
+  links:
+    - url:
+      display: "FM2026"
+    - url: https://doi.org/10.5281/zenodo.19656780
+      display: "artifact"
+  highlight: 0
+
 - title: "Accurate Inference of Termination Conditions"
   authors: Biting Huang, Zhilei Han and Fei He
   link:
