@@ -1,8 +1,10 @@
 - title: "Deadlock Verification via Ordering-Constrained Mutex Modeling"
   authors: Pei Wang, Zhilei Han and Fei He
-  link:
+  links:
+    - url:
+      display: CAV 2026
     - url: https://thufv.github.io/research/cav26
-      display: "artifact"
+      display: artifact
   highlight: 0
 
 - title: "A Refined Ordering Consistency Theory: Full Sequential Consistency and Generalized Preventive Reasoning"
