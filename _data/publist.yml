@@ -1,7 +1,7 @@
 - title: "Deadlock Verification via Ordering-Constrained Mutex Modeling"
   authors: Pei Wang, Zhilei Han and Fei He
   link:
-    - url: "https://thufv.github.io/research/cav26"
+    - url: https://thufv.github.io/research/cav26
       display: "artifact"
   highlight: 0
 
