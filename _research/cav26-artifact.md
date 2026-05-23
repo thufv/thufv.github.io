@@ -6,7 +6,7 @@ permalink: /research/cav26
 
 ## <center>Deadlock Verification via Ordering-Constrained Mutex Modeling</center>
 
-#### <center>Pei Wang</a>, Zhilei Han</a> and <a href="https://feihe.github.io/">Fei He</a></center>
+#### <center>Pei Wang, Zhilei Han and <a href="https://feihe.github.io/">Fei He</a></center>
 
 ## <center>Abstract</center>
 
