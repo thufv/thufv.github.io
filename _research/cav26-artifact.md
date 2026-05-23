@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Deadlock Verification via Ordering-Constrained Mutex Modeling
-permalink: /research/cav26-deagle
+permalink: /research/cav26
 ---
 
 ## <center>Deadlock Verification via Ordering-Constrained Mutex Modeling</center>
